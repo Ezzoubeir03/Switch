@@ -1,0 +1,27 @@
+class Switch {
+    public static void main(String[] args) {
+        ///Switch statement
+        /*String gender = "MALE";
+        if (gender.equals("FEMALE")) {
+        } else if (gender.equals("MALE")) {
+        } else if (gender.equals("PREFER_NOT_SAY")) {
+
+        } else {
+        }*/
+        String gender = "Male";
+        switch (gender.toUpperCase()) {
+            case "FEMALE":
+                System.out.println("FEMALE");
+                break;
+            case "MALE":
+                System.out.println("MALE");
+                break;
+            case "PREFER_NOT_SAY":
+                System.out.println("PREFER_NOT_SAY");
+                break;
+            default:
+                System.out.println("Unknow gender");
+
+        }
+    }
+}
